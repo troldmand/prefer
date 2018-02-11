@@ -13,6 +13,7 @@
   "author": "Karl Jonathan Schmidt Kristiansen",
   "license": "GPL-3.0",
   "dependencies": {
-    "imdb-api": "^3.1.2"
+    "imdb-api": "^3.1.2",
+    "ngrok": "^2.2.25"
   }
 }
