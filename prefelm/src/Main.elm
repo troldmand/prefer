@@ -1,6 +1,6 @@
 module Main exposing (..)
 
-import Html exposing (Html, text, div, h1, img)
+import Html exposing (Html, text, div, h1, h2, p, img)
 import Html.Attributes exposing (src)
 
 
@@ -36,8 +36,12 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ img [ src "/logo.svg" ] []
-        , h1 [] [ text "Your Elm App is working!" ]
+        [ img [ src "/place.png" ] []
+        , h1 [] [ text "2Prefelm!" ]
+        , h2 [] [ text "This is the FTV" ]
+        , p [] [ text "*Flip Trough Movies (v1.0.0)" ]
+
+        --, p [] [ text "- Currently just an image - but the imdb-api should be installed(.. ?), maybe" ]
         ]
 
 
