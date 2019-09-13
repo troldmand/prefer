@@ -1,10 +1,3 @@
-
-// getTV stack groupPreference =
-  
-// getTV call perspective = 
-
-// groupPreference group overlay getTV = 
-
 const imdb = require('imdb-api');
 
 
